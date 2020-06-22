@@ -1,0 +1,24 @@
+#calc{
+	width: 221px;
+	height: 270px;
+	background-color: black;
+}
+
+#view{
+	height: 60px;
+}
+
+#keys {
+	width: 75%;
+	float: left;
+
+}
+#operationKeys{
+	width: 25%;
+	float: left;
+}
+
+button{
+	width: 50px;
+	height: 50px;
+}

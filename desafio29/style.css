@@ -1,0 +1,13 @@
+table, th, td {
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+form{
+	width: 200px;
+}
+table {
+	float: right;
+}
+h1{
+	text-align: center;
+}

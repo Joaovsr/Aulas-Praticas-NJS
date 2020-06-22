@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>desafio 29</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>
+		<span data-js="companyName"></span>
+		<span data-js="companyPhone"></span>
+	</h1>
+	<form data-js="formRegister">
+		<span>Imagem do carro</span>
+		<input type="url" data-js="imgCar">
+		<span>Modelo do carro</span>
+		<input type="text" data-js="modelCar">
+		<span>Ano do carro</span>
+		<input type="text" data-js="yearCar">
+		<span>Placa</span>
+		<input type="text" data-js="placaCar">
+		<span>Cor</span>
+		<input type="text" data-js="colorCar">
+		<button data-js="btnCadastrar">Cadastrar</button>
+	</form>
+	<table>
+		<thead>
+		  <tr>
+		    <th>imagem</th>
+		    <th>modelo</th> 
+		    <th>ano</th>
+		    <th>placa</th>
+		    <th>cor</th>
+		  </tr>
+		</thead>
+		<tbody data-js="tableCar"></tbody>
+	</table>
+
+	<script src="dom.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
